@@ -1,0 +1,11 @@
+<!doctype html><html lang="ar" dir="rtl"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Business Empire V2</title><link rel="stylesheet" href="style.css"></head><body>
+<div class="app">
+<header><div><div class="logo">💼 BUSINESS EMPIRE</div><h1>ابنِ مدينتك التجارية</h1><p>من مشروع صغير إلى إمبراطورية كاملة.</p></div><button id="reset" class="danger">إعادة</button></header>
+<section class="top"><div class="stat">💵<span>الرصيد</span><b id="money">$1,000</b></div><div class="stat">📈<span>الدخل / دقيقة</span><b id="income">$0</b></div><div class="stat">👥<span>الموظفون</span><b id="workers">0</b></div><div class="stat">⭐<span>المستوى</span><b id="level">1</b></div></section>
+<nav><button data-tab="city" class="active">🏙️ المدينة</button><button data-tab="business">🏢 المشاريع</button><button data-tab="staff">👥 الموظفون</button><button data-tab="market">📊 السوق</button></nav>
+<section id="city" class="tab active"><div class="hero"><h2>🏙️ مدينتك</h2><p>افتح مشاريعك في أحياء جديدة وارفع قيمة إمبراطوريتك.</p><div class="citygrid" id="citygrid"></div></div></section>
+<section id="business" class="tab"><div class="panel"><h2>🏢 المشاريع</h2><div id="businesses"></div></div></section>
+<section id="staff" class="tab"><div class="panel"><h2>👥 فريق العمل</h2><p class="muted">الموظف يزيد كفاءة مشاريعك بنسبة 8% لكل موظف.</p><div id="staff"></div></div></section>
+<section id="market" class="tab"><div class="panel"><h2>📊 السوق</h2><div id="marketbox"></div></div></section>
+<div class="footer"><button id="collect">💰 تحصيل الأرباح الآن</button><span id="xp"></span></div><div id="toast"></div>
+</div><script src="game.js"></script></body></html>
