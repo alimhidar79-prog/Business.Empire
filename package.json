@@ -13,4 +13,5 @@
     "@capacitor/cli": "^7.0.0",
     "typescript": "^5.7.3"
   }
+
 }
